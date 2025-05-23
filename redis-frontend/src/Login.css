@@ -1,0 +1,57 @@
+/* Apply styles ONLY inside the login page */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    background: url('C:\Users\Admin\Documents\ITD110\Case_Study_1\redis-frontend\public\images\hindang2.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+
+/* Scope the login container */
+.login-page .login-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+/* Scoped input fields */
+.login-page input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-page input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  outline: none;
+}
+
+/* Scoped login button */
+.login-page button {
+  width: 100%;
+  padding: 12px;
+  background: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-page button:hover {
+  background: #357ab7;
+  transform: scale(1.05);
+}

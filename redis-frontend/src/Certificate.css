@@ -1,0 +1,94 @@
+/* Certificate.css */
+
+
+.short-input {
+  width: 300px; /* or any width you prefer */
+}
+
+.certificate-container {
+  padding: 2rem;
+  font-family: "Arial", sans-serif;
+}
+
+.cert-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.cert-form {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 300px;
+}
+
+.cert-form label {
+  font-weight: bold;
+}
+
+.cert-form select,
+.cert-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cert-actions {
+  margin-bottom: 2rem;
+}
+
+.cert-actions button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cert-actions button:first-child {
+  background-color: #22c55e;
+  color: white;
+}
+
+.cert-actions button:last-child {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.certificate {
+  border: 2px solid #000;
+  padding: 2rem;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.certificate .center {
+  text-align: center;
+}
+
+.certificate h2,
+.certificate h3 {
+  margin: 0.3rem 0;
+}
+
+.certificate p {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.signature {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.signature img {
+  margin-top: 0.5rem;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
